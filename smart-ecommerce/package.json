@@ -1,0 +1,33 @@
+{
+  "name": "smart-ecommerce",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Smart E-Commerce Recommendation System web application providing personalized product recommendations.",
+  "main": "src/client/App.tsx",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@azure/msal-browser": "^2.x",
+    "@azure/msal-react": "^1.x",
+    "@microsoft/applicationinsights-web": "^2.x",
+    "react": "^18.x",
+    "react-dom": "^18.x",
+    "react-router-dom": "^6.x",
+    "typescript": "^4.x"
+  },
+  "keywords": [
+    "ecommerce",
+    "recommendation",
+    "azure",
+    "react"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.13.14"
+  }
+}
